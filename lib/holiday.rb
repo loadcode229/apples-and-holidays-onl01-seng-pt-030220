@@ -11,7 +11,6 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash[:winter][:christmas] << "christmas lights",
   holiday_hash[:winter][:new_years] << "balloons"
 end
-end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
