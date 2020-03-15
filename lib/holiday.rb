@@ -33,8 +33,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  holiday_hash.each do |holidays, decorations|
-    holidays.values.flatten
+  holiday_hash.values.flatten
   end
 end
 
